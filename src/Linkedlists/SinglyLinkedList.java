@@ -5,7 +5,7 @@ public class SinglyLinkedList
 	Node head;
 	Node last;
 
-	class Node
+	static class Node
 	{
 		int data;
 		Node next;
@@ -57,6 +57,81 @@ public class SinglyLinkedList
 			tnode = tnode.next;
 		}
 	}
+
+	//detecting loop
+    public boolean detectLoop(){
+	    Node fastPtr = head;
+	    Node slowPtr = head;
+
+	    if(head == null) return false;
+
+	    while(fastPtr != null && fastPtr.next != null)
+        {
+            fastPtr = fastPtr.next.next;
+            slowPtr = slowPtr.next;
+
+            if(fastPtr == slowPtr) return true;
+        }
+        return false;
+    }
+
+    public int printLengthOfLoop(){
+	    if(head == null) return 0;
+        Node fastPtr = head;
+        Node slowPtr = head;
+        while(fastPtr != null && fastPtr.next != null)
+        {
+            fastPtr = fastPtr.next.next;
+            slowPtr = slowPtr.next;
+
+            if(fastPtr == slowPtr){
+               Node newPointer = slowPtr.next;
+               int count = 1;
+
+               while (newPointer != slowPtr){
+                   count++;
+                   newPointer=newPointer.next;
+               }
+               return count;
+            }
+        }
+        return 0;
+    }
+
+    public boolean detectLoopAndRemoveIt(){
+		if(head == null) return false;
+		Node fastPtr = head;
+		Node slowPtr = head;
+		while(fastPtr != null && fastPtr.next != null)
+		{
+			fastPtr = fastPtr.next.next;
+			slowPtr = slowPtr.next;
+
+			if(fastPtr == slowPtr){
+				Node temp = slowPtr.next;
+				int count = 1;
+
+				while (temp != slowPtr){
+					count++;
+					temp = temp.next;
+				}
+				Node newPtr1 = head;
+				Node newPtr2 = head;
+				for(int i = 0; i < count; i++){
+					newPtr1= newPtr1.next;
+				}
+
+				while(newPtr2.next != newPtr1.next){
+					newPtr2 = newPtr2.next;
+				}
+
+				newPtr1.next = null;
+				return true;
+			}
+		}
+		return false;
+	}
+
    //iterative
 	public int size(){
 		if(head == null) return 0;
@@ -82,24 +157,42 @@ public class SinglyLinkedList
 
 	public static void main(String[] args)
 	{
-		SinglyLinkedList llist = new SinglyLinkedList();
-		llist.push(7);
-		llist.push(1);
-		llist.push(3);
-		llist.push(2);
-		llist.push(8);
+//		SinglyLinkedList llist = new SinglyLinkedList();
+//		llist.push(7);
+//		llist.push(1);
+//		llist.push(3);
+//		llist.push(2);
+//		llist.push(8);
+//
+//		System.out.println("\nCreated Linked list is: ");
+//		llist.printList();
+//
+//		llist.delete(4);  // Delete node at position 4
+//
+//		System.out.println("\nLinked List after Deletion at position 4: ");
+//		llist.printList();
+//
+//		System.out.println("\nThe list size: "+ llist.size());
+//
+//		System.out.println("\nNode found : "+ llist.getNode(3).data);
+////
+//
 
-		System.out.println("\nCreated Linked list is: ");
-		llist.printList();
+		SinglyLinkedList loop = new SinglyLinkedList();
 
-		llist.delete(4);  // Delete node at position 4
+		Node first = new Node(1);
+        Node sec = new Node(2);
+        Node thir = new Node(3);
+        Node four = new Node(4);
+        Node five = new Node(5);
 
-		System.out.println("\nLinked List after Deletion at position 4: ");
-		llist.printList();
-
-		System.out.println("\nThe list size: "+ llist.size());
-
-		System.out.println("\nNode found : "+ llist.getNode(3).data);
-
+        loop.head = first;
+        first.next = sec;
+        sec.next = thir;
+        thir.next = four;
+        four.next = five;
+        five.next = sec;
+  //      System.out.println("\nDetect loop: "+ loop.detectLoop());
+        System.out.println("\nLength of loop: "+ loop.detectLoopAndRemoveIt());
 	}
 }
