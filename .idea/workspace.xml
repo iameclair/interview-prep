@@ -2,24 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6730e5c3-9df3-4e39-af28-50a286260303" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/algorithm/Stack_and_Queue/InfixToPostFix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithm/Stack_and_Queue/Stack.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithm/Stack_and_Queue/StackLinkedList$Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithm/Stack_and_Queue/StackLinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/algorithm/Stack_and_Queue/StackTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndStrings/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndStrings/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ArraysAndStrings/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack_and_Queue/InfixToPostFix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack_and_Queue/QueueUsingStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack_and_Queue/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack_and_Queue/StackLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Stack_and_Queue/StackTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/heaps/BinaryHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Searching_and_Sorting/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Searching_and_Sorting/SortingAlgorithms.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TreeAndGraph/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Linkedlists/SinglyLinkedList$Node.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/Linkedlists/SinglyLinkedList$Node.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Linkedlists/SinglyLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/Linkedlists/SinglyLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Linkedlists/SinglyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Linkedlists/SinglyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithm/Stack_and_Queue/QueueUsingStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithm/Stack_and_Queue/QueueUsingStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stack_and_Queue/QueueUsingStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stack_and_Queue/QueueUsingStack.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,22 +29,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="21" />
+          <entry key="java" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="21" />
+          <entry key="JAVA" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="8015" />
+          <entry key="java" value="12021" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8015" />
+          <entry key="JAVA" value="12021" />
         </counts>
       </usages-collector>
     </session>
@@ -96,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/src/Stack_and_Queue/InfixToPostFix.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1495">
-              <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+              <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
               <folding>
                 <element signature="e#139#140#0" expanded="true" />
                 <element signature="e#214#215#0" expanded="true" />
@@ -108,8 +96,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Stack_and_Queue/QueueUsingStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="374">
+              <caret line="22" column="19" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="19" />
+              <folding>
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#539#540#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -126,10 +118,69 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="527">
+              <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Searching_and_Sorting/SortingAlgorithms.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
+              <folding>
+                <element signature="e#112#113#0" expanded="true" />
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#958#959#0" expanded="true" />
+                <element signature="e#975#976#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TreeAndGraph/Tree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="658">
+              <caret line="145" selection-start-line="145" selection-end-line="145" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2504#2505#0" expanded="true" />
+                <element signature="e#2555#2556#0" expanded="true" />
+                <element signature="e#2614#2615#0" expanded="true" />
+                <element signature="e#2665#2666#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Searching_and_Sorting/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="49" selection-start-line="49" selection-end-line="49" />
+              <folding>
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#160#161#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/AbstractCollection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+              <folding>
+                <element signature="e#2293#2294#0" expanded="true" />
+                <element signature="e#2327#2328#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -149,19 +200,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="23" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Stack_and_Queue/Stack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
-              <folding>
-                <element signature="e#774#775#0" expanded="true" />
-                <element signature="e#809#810#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -200,10 +238,13 @@
         <option value="$PROJECT_DIR$/src/Stack_and_Queue/StackTest.java" />
         <option value="$PROJECT_DIR$/src/Stack_and_Queue/Stack.java" />
         <option value="$PROJECT_DIR$/src/Stack_and_Queue/InfixToPostFix.java" />
-        <option value="$PROJECT_DIR$/src/Stack_and_Queue/QueueUsingStack.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/HashTable.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/LinkedList.java" />
         <option value="$PROJECT_DIR$/src/ArraysAndStrings/Solution.java" />
+        <option value="$PROJECT_DIR$/src/Searching_and_Sorting/SortingAlgorithms.java" />
+        <option value="$PROJECT_DIR$/src/Stack_and_Queue/QueueUsingStack.java" />
+        <option value="$PROJECT_DIR$/src/TreeAndGraph/Tree.java" />
+        <option value="$PROJECT_DIR$/src/Searching_and_Sorting/MergeSort.java" />
       </list>
     </option>
   </component>
@@ -256,6 +297,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ArraysAndStrings" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="TreeAndGraph" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -288,20 +335,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Solution">
-    <configuration name="CircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Linkedlists.CircularLinkedList" />
-      <module name="algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Linkedlists.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="InfixToPostFix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Stack_and_Queue.InfixToPostFix" />
       <module name="algorithm" />
@@ -315,12 +349,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Linkedlists.SinglyLinkedList" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Searching_and_Sorting.MergeSort" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Linkedlists.*" />
+          <option name="PATTERN" value="Searching_and_Sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -341,12 +375,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Stack_and_Queue.StackTest" />
+    <configuration name="SortingAlgorithms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Searching_and_Sorting.SortingAlgorithms" />
       <module name="algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Stack_and_Queue.*" />
+          <option name="PATTERN" value="Searching_and_Sorting.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TreeAndGraph.Tree" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="TreeAndGraph.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -355,19 +402,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SinglyLinkedList" />
-      <item itemvalue="Application.CircularLinkedList" />
-      <item itemvalue="Application.StackTest" />
       <item itemvalue="Application.InfixToPostFix" />
       <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.SortingAlgorithms" />
+      <item itemvalue="Application.Tree" />
+      <item itemvalue="Application.MergeSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.Tree" />
+        <item itemvalue="Application.SortingAlgorithms" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.InfixToPostFix" />
-        <item itemvalue="Application.StackTest" />
-        <item itemvalue="Application.SinglyLinkedList" />
-        <item itemvalue="Application.CircularLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -388,13 +435,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51017000" />
+    <option name="totallyTimeSpent" value="78320000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1361" y="0" width="1199" height="1440" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49940547" visible="true" weight="0.24978392" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49940547" visible="true" weight="0.24978392" />
       <window_info id="Structure" order="1" sideWeight="0.50059456" side_tool="true" weight="0.24978392" />
       <window_info id="JRebel" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -405,7 +452,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32739422" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3756496" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3756496" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -415,7 +462,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="JRebel Executor" order="11" />
       <window_info anchor="bottom" id="Hybris Console [Experimental]" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32962137" />
       <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -455,6 +502,36 @@
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Searching_and_Sorting/SortingAlgorithms.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TreeAndGraph/Tree.java</url>
+          <line>113</line>
+          <properties />
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/TreeAndGraph/Tree.java</url>
+          <line>100</line>
+          <properties />
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Searching_and_Sorting/MergeSort.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="83" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Searching_and_Sorting/MergeSort.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="84" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -467,6 +544,31 @@
       </expression>
     </expressions>
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>current.data.compareTo(next.data)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>root.data</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>queue.deQueue()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>node.data.compareTo(temp.data)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>temp.data.compareTo(node.data)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>!stack.isEmpty() &amp;&amp; isGreater(expres[i]) &lt;= isGreater((Character) stack.peak())
                           &amp;&amp; (char) stack.peak() != '(' || (char) stack.peak() != ')'</expression-string>
@@ -578,7 +680,7 @@
     <entry file="file://$PROJECT_DIR$/src/Stack_and_Queue/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="48" column="29" lean-forward="true" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
+          <caret line="48" column="29" selection-start-line="48" selection-start-column="29" selection-end-line="48" selection-end-column="29" />
           <folding>
             <element signature="e#774#775#0" expanded="true" />
             <element signature="e#809#810#0" expanded="true" />
@@ -597,13 +699,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
           <caret line="143" column="45" selection-start-line="143" selection-start-column="45" selection-end-line="143" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="60" column="60" lean-forward="true" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -631,18 +726,11 @@
     <entry file="file://$PROJECT_DIR$/src/Stack_and_Queue/InfixToPostFix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1495">
-          <caret line="91" column="5" lean-forward="true" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
+          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
           <folding>
             <element signature="e#139#140#0" expanded="true" />
             <element signature="e#214#215#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Stack_and_Queue/QueueUsingStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -667,10 +755,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Stack_and_Queue/QueueUsingStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="19" />
+          <folding>
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#539#540#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_112.jdk/Contents/Home/src.zip!/java/util/AbstractCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="84" column="19" selection-start-line="84" selection-start-column="19" selection-end-line="84" selection-end-column="19" />
+          <folding>
+            <element signature="e#2293#2294#0" expanded="true" />
+            <element signature="e#2327#2328#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TreeAndGraph/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="658">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2504#2505#0" expanded="true" />
+            <element signature="e#2555#2556#0" expanded="true" />
+            <element signature="e#2614#2615#0" expanded="true" />
+            <element signature="e#2665#2666#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Searching_and_Sorting/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Searching_and_Sorting/SortingAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#112#113#0" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArraysAndStrings/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="527">
+          <caret line="31" column="53" selection-start-line="31" selection-start-column="53" selection-end-line="31" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
